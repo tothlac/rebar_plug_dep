@@ -1,0 +1,1 @@
+-define(DEF_LENGTH, 1000).

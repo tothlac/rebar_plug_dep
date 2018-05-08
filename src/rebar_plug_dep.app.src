@@ -1,0 +1,13 @@
+{application, rebar_plug_dep, [
+
+  {description, "rebar plugin dependency"},
+  {vsn, git},
+  {id, "git"},
+  {modules, []},
+  {registered, []},
+  { applications, [ kernel,
+                    stdlib
+  ]},
+  {env, []},
+  {mod, { wsa_app, []}}
+]}.
